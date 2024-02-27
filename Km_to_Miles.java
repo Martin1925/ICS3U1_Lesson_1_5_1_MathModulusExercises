@@ -7,8 +7,17 @@ class Km_to_Miles extends ConsoleProgram {
   */
   
   public void run() {
+
+    double dblKm;
+    double dblMiles;
     
-    // start coding here
-    
+    // Value of Kilometers
+    dblKm = readDouble("How many Km were traveled: ");
+
+    // Converstion of Km to Miles
+    dblMiles = dblKm * 0.621371;
+
+    // Output of Value
+    System.out.println(dblKm + " km = " + dblMiles + " miles.");
   }
 }
